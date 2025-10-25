@@ -1,5 +1,4 @@
 import argparse
-import uvicorn
 from pylognet.server import LoggingService
 
 
