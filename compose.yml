@@ -1,7 +1,7 @@
 services:
   app:
     build: .
-    container_name: YummyControlServer
+    container_name: YummyLogger
     # 設定ファイルの注入
     volumes:
       - ./settings/config.json:/app/settings/config.json:ro # :ro Read Only
